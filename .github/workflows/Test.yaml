@@ -3,7 +3,7 @@ name: Dynatrace Test Event
 on:
   workflow_dispatch:   # allows manual trigger
 
-jobs: build
+jobs: 
   send-event:
     runs-on: ubuntu-latest
     steps:
